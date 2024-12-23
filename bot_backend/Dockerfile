@@ -1,6 +1,6 @@
 FROM python:3.12
 
-WORKDIR /harisnvrbot
+WORKDIR /bot_backend
 
 COPY requirements.txt .
 

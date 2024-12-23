@@ -1,0 +1,6 @@
+services:
+  backend:
+      container_name: harisnvr
+      build: ./bot_backend/
+      env_file: .env
+      restart: always
