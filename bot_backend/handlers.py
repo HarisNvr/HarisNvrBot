@@ -2,7 +2,7 @@ from aiogram.types import CallbackQuery
 from aiogram_dialog import DialogManager
 from aiogram_dialog.widgets.kbd import Button
 
-from bot_backend.fsm import DialogStates
+from fsm import DialogStates
 
 
 async def dialog_handler(

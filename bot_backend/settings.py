@@ -5,7 +5,7 @@ from aiogram.client.default import DefaultBotProperties
 from aiogram.types import BotCommand
 from dotenv import load_dotenv
 
-from bot_backend.fsm import DialogStates
+from fsm import DialogStates
 
 load_dotenv()
 
@@ -19,7 +19,7 @@ COMMANDS = [
     ),
     BotCommand(
         command='faq',
-        description='Ответы на ЧаВо'
+        description='Ответы на вопросы'
     )
 ]
 

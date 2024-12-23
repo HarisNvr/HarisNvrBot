@@ -5,9 +5,9 @@ from aiogram.filters import Command
 from aiogram.types import Message
 from aiogram_dialog import Dialog, DialogManager, StartMode
 
-from bot_backend.dialogs import star_window, faq_window_1, faq_window_2
-from bot_backend.faq_windows import faq_windows
-from bot_backend.settings import COMMANDS_FORMAT_LIST, COMMANDS_TO_STATES
+from dialogs import star_window, faq_window_1, faq_window_2
+from faq_windows import faq_windows
+from settings import COMMANDS_FORMAT_LIST, COMMANDS_TO_STATES
 
 main_router = Router()
 

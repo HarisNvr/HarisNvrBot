@@ -5,8 +5,9 @@ from aiogram_dialog import Window
 from aiogram_dialog.widgets.kbd import Button
 from aiogram_dialog.widgets.text import Const
 
-from bot_backend.fsm import DialogStates
-from bot_backend.handlers import dialog_handler
+from buttons import CONTACT_ME_BTN
+from fsm import DialogStates
+from handlers import dialog_handler
 
 faq_states = {
     'faq_why_tg': DialogStates.faq_why_tg,
@@ -53,6 +54,7 @@ def get_faq_answers():
         windows.append(
             Window(
                 Const(text),
+                CONTACT_ME_BTN,
                 Button(
                     Const('Назад'),
                     id=f'faq_{n}',
