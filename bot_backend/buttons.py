@@ -4,7 +4,7 @@ from aiogram_dialog.widgets.text import Const
 from handlers import dialog_handler
 
 CONTACT_ME_BTN = Url(
-    Const('Связаться \U0001F4F2'),
+    Const('Связаться \U0001F4E9'),
     Const('https://t.me/HarisNvrsk')
 )
 
